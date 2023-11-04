@@ -1,11 +1,11 @@
 import { useGetUsersQuery } from "./usersApiSlice"
 import User from './User'
-// import useTitle from "../../hooks/useTitle"
+import useTitle from "../../hooks/useTitle"
 import PulseLoader from 'react-spinners/PulseLoader'
 
 const UsersList = () => {
 
-    // useTitle('techNotes: Users List')
+    useTitle('techNotes: Users List')
 
     const {
         data: users,
